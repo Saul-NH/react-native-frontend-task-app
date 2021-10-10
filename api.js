@@ -1,4 +1,5 @@
-const API = 'http://192.168.18.12:4000/tasks';
+//Change with the IP of the server where the React Native Backend Task API is running
+const API = 'http://192.168.18.7:4000/tasks';
 
 export const getTasks = async () => {
     const res = await fetch(API);
